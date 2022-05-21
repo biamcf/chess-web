@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
 
 body {
-  background-color: #ffddd2;
+  background-color: #F5F3F4;
 }
 
 .title {
   font-size: 4rem;
-  font-family: 'Sacramento', cursive;
-  color: #006D77;
+  font-family: 'Cinzel', serif;
+  color: #161A1D;
   text-align: center;
   padding: 2rem 0;
 }
@@ -23,12 +23,30 @@ body {
 .chess-square {
   width: 80px;
   height: 80px;
+  text-align: center;
 }
 
 .square-white {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 
 .square-black {
-  background-color: #E29578;
+  background-color: #A4161A;
+}
+
+.piece {
+  height: 75px;
+  width: 75px;
+}
+
+.piece:hover {
+  cursor: pointer;
+}
+
+.possible {
+  background-color: #FCA311;
+}
+
+.selected {
+  background-color: #16a4a0;
 }
